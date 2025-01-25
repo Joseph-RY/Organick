@@ -18,5 +18,20 @@ header {
     background-image: url(../images/img_1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.section_frame_first {
+    background-image: url(../images/Frame\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section_frame_second {
+    background-image: url(../images/Frame\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
