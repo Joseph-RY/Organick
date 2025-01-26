@@ -656,6 +656,18 @@ video {
   height: 700px;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[40\] {
+  height: 40;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -700,6 +712,18 @@ video {
   width: 50%;
 }
 
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[33\%\] {
+  width: 33%;
+}
+
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
@@ -722,6 +746,10 @@ video {
 
 .max-w-\[900px\] {
   max-width: 900px;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -786,6 +814,14 @@ video {
 
 .gap-\[\] {
   gap: ;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .rounded-\[10px\] {
@@ -875,6 +911,11 @@ video {
 
 .bg-\[\] {
   background-color: ;
+}
+
+.bg-\[\#EFF6F1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 241 / var(--tw-bg-opacity, 1));
 }
 
 .bg-left {
@@ -971,6 +1012,26 @@ video {
 .px-\[\] {
   padding-left: ;
   padding-right: ;
+}
+
+.px-\[80px\] {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.py-\[30x\] {
+  padding-top: 30x;
+  padding-bottom: 30x;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pb-\[\] {
@@ -1087,6 +1148,10 @@ video {
 
 .text-\[23px\] {
   font-size: 23px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-\[700\] {
@@ -1209,6 +1274,10 @@ video {
     height: 230px;
   }
 
+  .lg\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .lg\:w-\[45\%\] {
     width: 45%;
   }
@@ -1241,12 +1310,20 @@ video {
     width: 80%;
   }
 
+  .lg\:w-\[30\%\] {
+    width: 30%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:bg-right {
@@ -1266,6 +1343,16 @@ video {
   .lg\:py-\[200px\] {
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+
+  .lg\:px-\[80px\] {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .lg\:py-\[30px\] {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .lg\:pr-\[200px\] {
@@ -1298,6 +1385,10 @@ video {
 
   .lg\:text-\[42px\] {
     font-size: 42px;
+  }
+
+  .lg\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .lg\:leading-\[84px\] {
