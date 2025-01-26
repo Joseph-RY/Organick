@@ -853,6 +853,10 @@ video {
   background-color: rgb(241 241 241 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-left {
   background-position: left;
 }
@@ -927,6 +931,16 @@ video {
 .px-\[10\%\] {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.py-\[140px\] {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.py-\[150px\] {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .pb-\[\] {
@@ -1076,6 +1090,11 @@ video {
 
 .text-\[\#274C\] {
   color: #274C;
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .line-through {
