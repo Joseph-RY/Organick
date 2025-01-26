@@ -588,6 +588,14 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[40\%px\] {
+  margin-top: 40%px;
+}
+
+.mb-\[50\%px\] {
+  margin-bottom: 50%px;
+}
+
 .block {
   display: block;
 }
@@ -1100,6 +1108,10 @@ video {
     height: 250px;
   }
 
+  .lg\:h-\[230px\] {
+    height: 230px;
+  }
+
   .lg\:w-\[45\%\] {
     width: 45%;
   }
@@ -1114,6 +1126,10 @@ video {
 
   .lg\:w-\[250px\] {
     width: 250px;
+  }
+
+  .lg\:w-\[230px\] {
+    width: 230px;
   }
 
   .lg\:flex-row {
