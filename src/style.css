@@ -35,3 +35,10 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+.testimenial {
+    background-image: url(../images/bg\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
