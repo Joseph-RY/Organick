@@ -42,3 +42,10 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+.section_6 {
+    background-image: url(../images/img_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
